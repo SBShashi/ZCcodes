@@ -12,7 +12,8 @@ void main()
 	}
 	for(i=0;i<5;i++)
 	{
-printf("The number by adding one %d \n",a[i]+1);
+		a[i]=a[i] + 1;
+		printf("The number by adding one %d \n",a[i]);
 	}
 	
 }
